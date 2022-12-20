@@ -1,2 +1,21 @@
-# Algorithms-COMP20290
-Public repository for algorithms module
+
+#Algorithms Repo
+
+Here you will find all algorithms completed over the course of this module, they range from simple to advanced.
+Assignments can be found in seperate folders titled with their number and more info on these algorithms can be found in documentation pdf.
+
+
+## Algorithms
+
+- [Russian Peasant](https://github.com/COMP20290-Algorithms/algorithms-repo-alexanderretsis/blob/main/russianPeasant.java) This algorithm mutliplies two numbers without using multiplication operator.
+- [Russian Peasant Timing](https://github.com/COMP20290-Algorithms/algorithms-repo-alexanderretsis/blob/main/russianTimer.java) Basic timing tests for our Algorithm.  
+- [Three Sum](https://github.com/COMP20290-Algorithms/algorithms-repo-alexanderretsis/blob/main/ThreeSum.java) This algorithm aims to find a triplet that sums to the given value its time complexity is **O(n^2)**.  
+- [Assignment 1: Sorting](https://github.com/COMP20290-Algorithms/algorithms-repo-alexanderretsis/tree/main/Assignment1) This contains many sorting algorithms, namely **BogoSort** which tries to sort the algorithm by randomly shuffling it, it has a time complexity of  **O(nn!)**, next we have **SelectionSort** which selects the smallest element and places it at the beginning of our list/array its time complexity is **O(n^2)** and space complexity is **O(1)**, then **BubbleSort** which compares 2 elements that are side by side each time and re-aranges them to be in order it has a time complexity of **O(n^2)** and space complexity of **O(1)**, then we have**MergeSort** which uses divide and conquer to recursivley break down a problem in to two or more sub problems, it has a time complexity of **O(nLog(n))** and a space complexity of **O(n)** finally we have **QuickSort**, it creates 2 empty arrays to hold elements that are lesser in value to the pivot and one for elements greater than the pivot and then it recursively sorts these arrays, it has a Time Complexity of **O(nlog(n))** and a space complexity of **O(log(n))**.       
+- [Binary Search](https://github.com/COMP20290-Algorithms/algorithms-repo-alexanderretsis/blob/main/binarySearchAlgorithms.java) Contains and iterative and recursive implementation of the binary search algorithm which finds a certain item from a sorted list by divided it in half until we arrive at the location of the item we are searching for, the Time complexities are **O(log(N))** for both but the spacing being **O(1)** and **O(log(N))** respectively.                                                            
+- [String Search](https://github.com/COMP20290-Algorithms/algorithms-repo-alexanderretsis/blob/main/bruteForceAlgorithm.java) This includes a brute force implementation of string search and a KMP implementation, in both cases we have a given string we want to match to our given pattern.The timing of brute force is **O(m)** best case and **O(mn)** worst case with a space complexity of **O(n)**, KMP's time complexity is **O(n)** and so is the space complexity.   
+- [RLE](https://github.com/COMP20290-Algorithms/algorithms-repo-alexanderretsis/blob/main/runLengthCoding.java) This contains an implementation or run length algorithm, it compresses our data by reducing repetetive and consecutive data without loss, it has a time complexity of **O(n)** and space complexity of **O(n)**.  
+- [Huffman](https://github.com/COMP20290-Algorithms/algorithms-repo-alexanderretsis/tree/main/Assignment2) Here we have our huffman compression/decompression algorithm where the characters with most frequency are encoded with the smallest and and the characters with the least frequency are encoded with the larger code. The time complexity is **O(nlogn)** and space complexity is **O(n)**.   
+- [Dynamic Programming](https://github.com/COMP20290-Algorithms/algorithms-repo-alexanderretsis/blob/main/Assignment3/dynamicProgramming.java) This containts recursive and dynamic implementation of multiple algorithms, such as Fibonacci, LCS, and Knapsack.
+- Fibonacci method will give us all fibonacci numbers up to the given number, the recursive implementation and Dynamic implementation has a time complexity of **O(N)** and space complexity of **O(1)**.
+- LCS this dynamic method aims to find the longest common substring the time complexity is **O(xy)** and space complexity is also **O(xy)**.
+- Knapsack this method we determine the number of each item we are able to include as to not go over the given weight limit, the brute force implemetation has a time complexity of **O(2^n)** and space of **O(1)** while the Dynamic implementation has a time complexity of **O(vW)** and space complexity is also **O(vW)**.
